@@ -6,11 +6,10 @@ This is a todo list Webservice sample, inspirated by the M$ article [Building Yo
 Testing
 -------
 To test the api, you yust have to:
-[Install dotnet core](https://www.microsoft.com/net/core)
-do
-	dotnet restore
-	dotnet run
 
-the api will run default on http://localhost:5000/api/
+1. [Install dotnet core](https://www.microsoft.com/net/core)
+2. run ``dotnet restore`` and ``dotnet run`` via the command line
 
-You can use the [Boomerang Google Extension](https://chrome.google.com/webstore/detail/boomerang-soap-rest-clien/eipdnjedkpcnlmmdfdkgfpljanehloah) and import the \_Boomerang.json file from this repo.
+the api will run default on http://localhost:5000/api/todo/
+
+You can use the [Boomerang Google Extension](https://chrome.google.com/webstore/detail/boomerang-soap-rest-clien/eipdnjedkpcnlmmdfdkgfpljanehloah) and import the \_Boomerang.json file from this repo to test the functions.
