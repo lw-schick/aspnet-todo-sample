@@ -1,0 +1,174 @@
+{
+  "_appName": "Boomerang",
+  "_appVersion": "2.1.2",
+  "_timestamp": 1468137023154,
+  "projectName": "",
+  "projects": [
+    {
+      "id": 1,
+      "name": "my asp.net api",
+      "last_accessed": 1468132960926,
+      "_services": [
+        {
+          "projectId": 1,
+          "name": "http://localhost:5000/api/",
+          "isRest": true,
+          "endpoints": [],
+          "id": 1,
+          "soap": null,
+          "_operations": [
+            {
+              "name": "__SYSTEM__",
+              "position": 0,
+              "serviceId": 1,
+              "id": 1,
+              "_requests": [
+                {
+                  "operationId": 1,
+                  "name": "Create",
+                  "endpoint": "http://localhost:5000/api/todo",
+                  "method": "POST",
+                  "payload": {
+                    "mode": "json",
+                    "raw": "{\n    \"Name\" : \"MyToDoEntry2\"\n}"
+                  },
+                  "auth": {},
+                  "response": {
+                    "time": 164,
+                    "data": "{\"key\":\"bdef070b-d413-44ad-8522-44f6459815c2\",\"name\":\"MyToDoEntry2\",\"isComplete\":false}",
+                    "status": {
+                      "code": 201,
+                      "text": "Created"
+                    },
+                    "headers": "Location: http://localhost:5000/api/Todo/bdef070b-d413-44ad-8522-44f6459815c2\r\nDate: Sun, 10 Jul 2016 07:20:04 GMT\r\nServer: Kestrel\r\nTransfer-Encoding: chunked\r\nContent-Type: application/json; charset=utf-8\r\n",
+                    "contentType": "application/json; charset=utf-8"
+                  },
+                  "headers": [
+                    {
+                      "name": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "name": "",
+                      "value": ""
+                    }
+                  ],
+                  "position": 1,
+                  "id": 1,
+                  "_state": null,
+                  "show": true,
+                  "script": ""
+                },
+                {
+                  "operationId": 1,
+                  "name": "GetAll",
+                  "endpoint": "http://localhost:5000/api/todo",
+                  "method": "GET",
+                  "payload": {
+                    "mode": "json",
+                    "raw": ""
+                  },
+                  "auth": {},
+                  "response": {
+                    "time": 51,
+                    "data": "[]",
+                    "status": {
+                      "code": 200,
+                      "text": "OK"
+                    },
+                    "headers": "Date: Sun, 10 Jul 2016 07:21:56 GMT\r\nServer: Kestrel\r\nTransfer-Encoding: chunked\r\nContent-Type: application/json; charset=utf-8\r\n",
+                    "contentType": "application/json; charset=utf-8"
+                  },
+                  "headers": [
+                    {
+                      "name": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "name": "",
+                      "value": ""
+                    }
+                  ],
+                  "position": 2,
+                  "id": 2,
+                  "_state": null,
+                  "show": true
+                },
+                {
+                  "operationId": 1,
+                  "name": "Update",
+                  "endpoint": "http://localhost:5000/api/todo/bdef070b-d413-44ad-8522-44f6459815c2",
+                  "method": "PUT",
+                  "payload": {
+                    "mode": "json",
+                    "raw": "{\n    \"key\": \"bdef070b-d413-44ad-8522-44f6459815c2\",\n    \"name\": \"MyToDoEntry2\",\n    \"isComplete\": true\n}"
+                  },
+                  "auth": {},
+                  "response": {
+                    "time": 48,
+                    "data": "",
+                    "status": {
+                      "code": 204,
+                      "text": "No Content"
+                    },
+                    "headers": "Date: Sun, 10 Jul 2016 07:20:57 GMT\r\nServer: Kestrel\r\n",
+                    "contentType": null
+                  },
+                  "headers": [
+                    {
+                      "name": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "name": "",
+                      "value": ""
+                    }
+                  ],
+                  "position": 3,
+                  "id": 3,
+                  "_state": null,
+                  "show": true
+                },
+                {
+                  "operationId": 1,
+                  "name": "Delete",
+                  "endpoint": "http://localhost:5000/api/todo/bdef070b-d413-44ad-8522-44f6459815c2",
+                  "method": "DELETE",
+                  "payload": {
+                    "mode": "json",
+                    "raw": ""
+                  },
+                  "auth": {},
+                  "response": {
+                    "time": 31,
+                    "data": "",
+                    "status": {
+                      "code": 200,
+                      "text": "OK"
+                    },
+                    "headers": "Date: Sun, 10 Jul 2016 07:21:53 GMT\r\nContent-Length: 0\r\nServer: Kestrel\r\n",
+                    "contentType": null
+                  },
+                  "headers": [
+                    {
+                      "name": "Content-Type",
+                      "value": "application/json"
+                    },
+                    {
+                      "name": "",
+                      "value": ""
+                    }
+                  ],
+                  "position": 4,
+                  "id": 4,
+                  "_state": null,
+                  "show": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
